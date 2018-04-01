@@ -72,8 +72,10 @@ function isPermit(energy) {
     var permitsRnd = permits[0][6];
     whichOne = 3;
     return permitsRnd.toFixed(3);
-  } else whichOne = 4;
-
+  } else {
+    whichOne = 4;
+    return "Are you serious?";
+  }
 
   // for (var i = 0; i < 8; i++) {
   //   for (var j = 0; j < 7; j++) {
