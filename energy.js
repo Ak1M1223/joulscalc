@@ -49,27 +49,27 @@ function isPermit(energy) {
     }
   }
 
-  if (energy <= permits[0][0]) {
-    console.log(permits[0][0]);
-    var permitsRnd = permits[0][0];
+  if (energy <= permits[1][0]) {
+    console.log(permits[1][0]);
+    var permitsRnd = permits[1][0];
     whichOne = 0;
     return permitsRnd.toFixed(3);
   }
-  if (energy <= permits[2][1]) {
-    console.log(permits[2][1]);
-    var permitsRnd = permits[2][1];
+  if (energy <= permits[1][2]) {
+    console.log(permits[1][2]);
+    var permitsRnd = permits[1][2];
     whichOne = 1;
     return permitsRnd.toFixed(3);
   }
-  if (energy <= permits[4][1]) {
-    console.log(permits[4][1]);
-    var permitsRnd = permits[4][1];
+  if (energy <= permits[5][1]) {
+    console.log(permits[5][1]);
+    var permitsRnd = permits[5][1];
     whichOne = 2;
     return permitsRnd.toFixed(3);
   }
-  if (energy <= permits[0][6]) {
-    console.log(permits[0][6]);
-    var permitsRnd = permits[0][6];
+  if (energy <= permits[6][3]) {
+    console.log(permits[6][3]);
+    var permitsRnd = permits[6][3];
     whichOne = 3;
     return permitsRnd.toFixed(3);
   } else {
