@@ -62,14 +62,14 @@ function isPermit(energy) {
     return permitsRnd.toFixed(3);
   }
   if (energy <= permits[4][1]) {
-    console.log(permits[2][1]);
-    var permitsRnd = permits[2][1];
+    console.log(permits[4][1]);
+    var permitsRnd = permits[4][1];
     whichOne = 2;
     return permitsRnd.toFixed(3);
   }
   if (energy <= permits[0][6]) {
-    console.log(permits[2][1]);
-    var permitsRnd = permits[2][1];
+    console.log(permits[0][6]);
+    var permitsRnd = permits[0][6];
     whichOne = 3;
     return permitsRnd.toFixed(3);
   } else whichOne = 4;
